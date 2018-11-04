@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
+    <Home></Home>
     <Search></Search>
     <Type></Type>
     <h4>这是app</h4>
@@ -11,13 +12,15 @@
 import HelloWorld from './components/HelloWorld.vue'
 import Search from './components/search.vue'
 import Type from './components/type.vue'
+import Home from './components/home.vue'
 
 export default {
   name: 'app',
   components: {
     HelloWorld,
     Search,
-    Type
+    Type,
+    Home
   }
 }
 </script>

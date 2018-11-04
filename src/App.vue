@@ -4,7 +4,8 @@
     <Home></Home>
     <Search></Search>
     <Type></Type>
-    <h4>这是app</h4>
+    <h4>this is app</h4>
+    <h5>看看是否有冲突</h5>
   </div>
 </template>
 
